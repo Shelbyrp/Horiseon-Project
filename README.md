@@ -1,8 +1,10 @@
 # my-home-task-1
+## Based on the user story, the task was to create a codebase that follows accessibility standards so that the client site is optimized for search engines
 
 Changes to the Horiseon code as per the user story and the acceptance criteria are outlined as below. These changes result in a webpage that meets the accessibility standards. 
 
 1. Fixed the indents of the html and CSS
+2. Grouped code in the styling
 
 Nav Changes:
 
@@ -33,4 +35,10 @@ Footer:
 2. Changed the colour of the footer text
 
 
+##Outcome:
+
 Final URL: https://shelbyrp.github.io/my-home-task-1
+
+ ![Final result appear as:](./assets/images/01-html-css-git-homework-demo.png)
+
+The application appears as per the original design however the code is structured, accessible and easy to follow.
