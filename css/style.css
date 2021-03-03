@@ -18,6 +18,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    font-size: 20px;
 }
 
 /* Display is set and header font size is set */
@@ -33,39 +34,28 @@ body {
 
 /* Changes the header layout */
 .header div {
-    margin-right: 10px;
+    padding-top: 15px;
+    margin-right: 20px;
     float: right;
     font-size: 20px;
 }
 
-/* Prevents scrollbars from appearing */
-.topnav {
-    overflow: hidden;
+/* Adds the nav items styling and layout */
+.header div ul {
+    list-style-type: none;
+  }
+
+.header div ul li {
+    /* Removes the bullet points and changes the display */
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 20px;
 }
 
-
-/* Adds the nav items styling and layout */
-ul {
-    text-align: right;
-    color: #ffffff;
-    display:inline;
-  }
-
-li {
-    /* Removes the bullet points and changes the display */
-    list-style-type: none;
-    font-size: 40px;
-    display:inline;
-  }
-  
-/* Adds colour, font size and layout */
-  .topnav a {
-    color: #f2f2f2;
-    text-align: center;
-    padding: 5px 5px;
-    text-decoration: none;
-    font-size: 18px;
-  }
 
 /* Changes the font size for the paragraphs */
 p {
@@ -130,39 +120,17 @@ p {
     margin-bottom: 32px;
 }
 
-/* Adds a margin to benefit lead heading and aligns it*/
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Adds a margin to benefit brand heading and aligns it*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Adds a margin to benefit brand cost and aligns it*/
+/* Adds a margin to benefit lead, content and cost heading and aligns it*/
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Adds a margin to benefit lead image, sets a max width and aligns it*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Adds a margin to benefit brand image, sets a max width and aligns it*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Adds a margin to benefit cost image, sets a max width and aligns it*/
+/* Adds a margin to benefit lead, brand and cost images, sets a max width and aligns it*/
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -170,22 +138,8 @@ p {
 }
 
 /* Sets a margin, padding, height and background colour*/
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-}
-
-/* Sets a margin, padding, height and background colour*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-}
-
-/* Sets a margin, padding, height and background colour*/
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -193,37 +147,28 @@ p {
     background-color: #0072bb;
 }
 
+
 /* Sets a max height for the search engine optimisation image*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* Sets a max height for the online reputation management image*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* Sets a max height for the social media marketing image*/
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
 /* Sets a font size for the search engine optimization heading*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Sets a font size for the online reputation management heading*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Sets a font size for the social media marketing heading*/
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* Sets a font size for the search engine optimization paragraph*/
+.search-engine-optimization p,
+.online-reputation-management p,
+.social-media-marketing p {
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 /* Sets a font size & colour, aligns the text, adds pading*/
