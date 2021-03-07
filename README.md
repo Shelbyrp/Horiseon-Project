@@ -1,5 +1,7 @@
-# my-home-task-1
-## Based on the user story, the task was to create a codebase that follows accessibility standards so that the client site is optimized for search engines
+# 01 HTML, CSS, and Git: Code Refactor Homework
+
+## Based on the user story, the task was to create a codebase that follows accessibility standards so that the client site is optimized for search engines.
+
 
 Changes to the Horiseon code as per the user story and the acceptance criteria are outlined as below. These changes result in a webpage that meets the accessibility standards. 
 
@@ -13,7 +15,7 @@ Nav Changes:
 3. Fixed the anchor link for Search Engine Optimization to the correct section on the webpage
 
 Hero:
-1.
+1. Added the hero image
 
 Body Images:
 
