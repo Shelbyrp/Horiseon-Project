@@ -45,12 +45,13 @@ body {
     list-style-type: none;
   }
 
+ /* Changes the layout and adds a margin*/
 .header div ul li {
-    /* Removes the bullet points and changes the display */
     display: inline-block;
     margin-left: 25px;
   }
 
+/* Removes the bullet points and changes the font size*/
   a {
     text-decoration: none;
     font-size: 20px;
