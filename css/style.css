@@ -57,7 +57,6 @@ body {
     font-size: 20px;
 }
 
-
 /* Changes the font size for the paragraphs */
 p {
     font-size: 16px;
@@ -78,7 +77,6 @@ p {
     float: left;
     margin-right: 25px;
 }
-
 
 /* Moves the image to the right*/
 .float-right {
@@ -109,7 +107,6 @@ p {
 .benefit-lead {
     margin-bottom: 32px;
 }
-
 
 /* Adds a margin to benefit brand content*/
 .benefit-brand {
@@ -147,7 +144,6 @@ p {
     height: 300px;
     background-color: #0072bb;
 }
-
 
 /* Sets a max height for the search engine optimisation image*/
 .search-engine-optimization img,
