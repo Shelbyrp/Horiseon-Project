@@ -39,7 +39,7 @@ Footer:
 
 ##Outcome:
 
-Final URL: https://shelbyrp.github.io/my-home-task-1
+Final URL: https://shelbyrp.github.io/Horiseon-Project/
 
  ![Final result appear as:](./assets/images/01-html-css-git-homework-demo.png)
 
